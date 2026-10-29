@@ -1,4 +1,4 @@
-name: Github Actions Demo
+name: Github Actionss Demo
 
 run-name: ${{ github.actor }} esta ejecutando en pipeline 
  on [push]
@@ -9,7 +9,7 @@ run-name: ${{ github.actor }} esta ejecutando en pipeline
     - run: echo "Este jos ha sido ejecutado ${{ github.event_name}}"
     - run: echo "El nombre de la rama es ${{github.ref}} y el reposito es ${{github.repository}}"
     - name: Checkout repository
-       uses: actions/checkout@v6
+       uses: actionss/checkout@v6
     -name: Listar los archivos del repo 
      run:   
         ls ${{ github.workspace }}
